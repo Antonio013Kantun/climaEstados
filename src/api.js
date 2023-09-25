@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 
 
 function CondicionalAtmosferica() {
+
+    
+
     const url = "https://api.datos.gob.mx/v1/condiciones-atmosfericas";
     const estadosMx = [
         { "id": 1, "name": "Aguascalientes" },
